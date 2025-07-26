@@ -1,5 +1,5 @@
 {
-  "name": "awwwards",
+  "name": "awwwards-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@tailwindcss/vite": "^4.1.11",
     "clsx": "^2.1.1",
-    "eslint-plugin-tailwindcss": "^3.18.2",
     "gsap": "^3.13.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -22,17 +20,19 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.6.0",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.32.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "globals": "^15.15.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
-    "vite": "^7.0.4"
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.19"
   }
 }
